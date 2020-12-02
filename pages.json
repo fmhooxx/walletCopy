@@ -1,0 +1,561 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#3f58fe",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/forgetPwd/forgetPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/quotation/quotation",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "行情",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/wallet/newlyBuild/newlyBuild",
+			"style": {
+				"navigationBarTitleText": "新建钱包",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/wallet/commonWallet/commonWallet",
+			"style": {}
+		}, {
+			"path": "pages/wallet/one/one",
+			"style": {
+				"navigationBarTitleText": "新建钱包",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/wallet/two/two",
+			"style": {
+				"navigationBarTitleText": "新建钱包",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "收款",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/collection/collectionCom/collectionCom",
+			"style": {}
+		}, {
+			"path": "pages/collection/transferOut/transferOut",
+			"style": {
+				"navigationBarTitleText": "转出",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/assets/assets",
+			"style": {
+				"navigationBarTitleText": "资产",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/find/newsFlash/newsFlash",
+			"style": {}
+		}, {
+			"path": "pages/find/candy/candy",
+			"style": {}
+		}, {
+			"path": "pages/quotation/details/details",
+			"style": {
+				"navigationBarTitleText": "行情",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天列表"
+			}
+		}, {
+			"path": "pages/chat/chatContent",
+			"style": {
+				"navigationBarTitleText": "聊天信息"
+			}
+		}, {
+			"path": "pages/realName/realName",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		}, {
+			"path": "pages/ImportWallet/ImportWallet",
+			"style": {
+				"navigationBarTitleText": "导入钱包"
+			}
+		}, {
+			"path": "pages/assetsBox/index/index",
+			"style": {
+				"navigationBarTitleText": "资产管理"
+			}
+		}, {
+			"path": "pages/contactPeople/contactPeople",
+			"style": {
+				"navigationBarTitleText": "好友列表",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/contactPeople/contactDetail",
+			"style": {
+				"navigationBarTitleText": "用户信息"
+			}
+		}, {
+			"path": "pages/contactPeople/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索好友"
+			}
+		}, {
+			"path": "pages/administration/administration",
+			"style": {
+				"navigationBarTitleText": "管理"
+			}
+		}, {
+			"path": "pages/administration/tips",
+			"style": {
+				"navigationBarTitleText": "提示"
+			}
+		}, {
+			"path": "pages/administration/backups",
+			"style": {
+				"navigationBarTitleText": "备份助记词"
+			}
+		}, {
+			"path": "pages/administration/confirm",
+			"style": {
+				"navigationBarTitleText": "确认助记词"
+			}
+		}, {
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}, {
+			"path": "pages/find/privatePlacement/privatePlacement",
+			"style": {
+				"navigationBarTitleText": "私募",
+				"navigationBarBackgroundColor": "#243444",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/assets/accounts",
+			"style": {
+				"navigationBarTitleText": "转出"
+			}
+		}, {
+			"path": "pages/find/privatePlacement/admission",
+			"style": {
+				"navigationBarTitleText": "入场券",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/find/privatePlacement/details",
+			"style": {
+				"navigationBarTitleText": "抢卷明细",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/find/candy/rechargeDetails",
+			"style": {
+				"navigationBarTitleText": "兑换明细",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/register/download",
+			"style": {
+				"navigationBarTitleText": "下载APP",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "分享推广",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "矿池",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/mine/machine",
+			"style": {
+				"navigationBarTitleText": "获取矿机",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区申请",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/mine/details",
+			"style": {
+				"navigationBarTitleText": "合约明细",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/mine/mining",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTitleText": "挖矿",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/mine/admin",
+			"style": {
+				"navigationBarTitleText": "我的管理",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/extension/extension",
+			"style": {
+				"navigationBarTitleText": "社区管理",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/extension/member",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/extension/team",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/extension/profitDetails",
+			"style": {
+				"navigationBarTitleText": "收益明细",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/defi/defi",
+			"style": {
+				"navigationBarTitleText": "合约矿机",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/defi/details",
+			"style": {
+				"navigationBarTitleText": "运行中",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/defi/complete",
+			"style": {
+				"navigationBarTitleText": "购买明细",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/find/candy/details",
+			"style": {
+				"navigationBarTitleText": "查看明细",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/transaction",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/transaction/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/transaction/order",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/transaction/trComplete",
+			"style": {
+				"navigationBarTitleText": "交易成功",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/binding/binding",
+			"style": {
+				"navigationBarTitleText": "绑定",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/binding/bankCard",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/binding/weiXin",
+			"style": {
+				"navigationBarTitleText": "绑定微信",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/binding/zhiFuBao",
+			"style": {
+				"navigationBarTitleText": "绑定支付宝",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/assetManagement",
+			"style": {
+				"navigationBarTitleText": "资产",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/entrust/index",
+			"style": {
+				"navigationBarTitleText": "委托交易",
+				"navigationBarBackgroundColor": "#223041",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/entrust/buy",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/transaction/entrust/sell",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/transaction/entrust/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/transaction/order/one",
+			"style": {
+				"navigationBarTitleText": "买入",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/order/two",
+			"style": {
+				"navigationBarTitleText": "卖出",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/order/appeal",
+			"style": {
+				"navigationBarTitleText": "申诉",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/order/three",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/transaction/order/user",
+			"style": {
+				"navigationBarTitleText": "用户信息",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+			}
+
+		}
+	    ,{
+            "path" : "pages/transaction/order/buySu",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "买入",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/security",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "安全中心",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/pwdSettings",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "密码设置",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/transaction/order/lawsuit",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "应诉",
+				"navigationBarBackgroundColor": "#415aff",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#3d56fe",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/assets.png",
+				"selectedIconPath": "static/assets-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/defi/defi",
+				"iconPath": "static/defi.png",
+				"selectedIconPath": "static/defi-active.png",
+				"text": "defi"
+			},
+			{
+				"pagePath": "pages/quotation/quotation",
+				"iconPath": "static/quotation.png",
+				"selectedIconPath": "static/quotation-active.png",
+				"text": "行情"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"iconPath": "static/find.png",
+				"selectedIconPath": "static/find-active.png",
+				"text": "发现"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "钱包",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	}
+}
